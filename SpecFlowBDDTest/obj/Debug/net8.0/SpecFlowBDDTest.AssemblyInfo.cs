@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SpecFlowBDDTest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3ded0ee301db250367329b7fc740aef8811ec488")]
 [assembly: System.Reflection.AssemblyProductAttribute("SpecFlowBDDTest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SpecFlowBDDTest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

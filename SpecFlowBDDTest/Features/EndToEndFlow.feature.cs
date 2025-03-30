@@ -75,6 +75,44 @@ namespace SpecFlowBDDTest.Features
         }
         
         [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("Verify End-to-End purchase flow with inline values")]
+        [NUnit.Framework.CategoryAttribute("Inline")]
+        public void VerifyEnd_To_EndPurchaseFlowWithInlineValues()
+        {
+            string[] tagsOfScenario = new string[] {
+                    "Inline"};
+            System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify End-to-End purchase flow with inline values", null, tagsOfScenario, argumentsOfScenario, featureTags);
+#line 5
+  this.ScenarioInitialize(scenarioInfo);
+#line hidden
+            if ((TagHelper.ContainsIgnoreTag(tagsOfScenario) || TagHelper.ContainsIgnoreTag(featureTags)))
+            {
+                testRunner.SkipScenario();
+            }
+            else
+            {
+                this.ScenarioStart();
+#line 6
+    testRunner.Given("I log in with username \"rahulshettyacademy\" and password \"learning\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line hidden
+#line 7
+    testRunner.When("I add \"iphone X\" and \"Blackberry\" to the cart", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line hidden
+#line 8
+    testRunner.And("I proceed to checkout", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line hidden
+#line 9
+    testRunner.Then("I should see the selected products in the checkout page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+#line 10
+    testRunner.And("I should see a success message upon purchase", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line hidden
+            }
+            this.ScenarioCleanup();
+        }
+        
+        [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("Verify End-to-End purchase flow")]
         [NUnit.Framework.CategoryAttribute("Smoke")]
         [NUnit.Framework.TestCaseAttribute("rahulshettyacademy", "learning", "iphone X", "Blackberry", null)]
@@ -94,7 +132,7 @@ namespace SpecFlowBDDTest.Features
             argumentsOfScenario.Add("product1", product1);
             argumentsOfScenario.Add("product2", product2);
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify End-to-End purchase flow", null, tagsOfScenario, argumentsOfScenario, featureTags);
-#line 5
+#line 13
   this.ScenarioInitialize(scenarioInfo);
 #line hidden
             if ((TagHelper.ContainsIgnoreTag(tagsOfScenario) || TagHelper.ContainsIgnoreTag(featureTags)))
@@ -104,19 +142,19 @@ namespace SpecFlowBDDTest.Features
             else
             {
                 this.ScenarioStart();
-#line 6
+#line 14
     testRunner.Given(string.Format("I log in with username \"{0}\" and password \"{1}\"", username, password), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-#line 7
-    testRunner.When(string.Format("I add {0} and {1} to the cart", product1, product2), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 15
+    testRunner.When(string.Format("I add \"{0}\" and \"{1}\" to the cart", product1, product2), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 8
+#line 16
     testRunner.And("I proceed to checkout", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 9
+#line 17
     testRunner.Then("I should see the selected products in the checkout page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-#line 10
+#line 18
     testRunner.And("I should see a success message upon purchase", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             }

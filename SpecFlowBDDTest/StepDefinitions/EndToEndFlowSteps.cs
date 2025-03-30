@@ -34,7 +34,7 @@ namespace SpecFlowBDDTest.StepDefinitions
             productPage.WaitForPageToDisplay();
         }
 
-        [When(@"I add (.*) and (.*) to the cart")]
+        [When(@"I add ""(.*)"" and ""(.*)"" to the cart")]
         public void WhenIAddProductsToTheCart(string product1, string product2)
         {
             IList<IWebElement> products = productPage.getCards();

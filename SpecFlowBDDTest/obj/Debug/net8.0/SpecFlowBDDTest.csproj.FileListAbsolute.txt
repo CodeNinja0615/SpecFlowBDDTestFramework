@@ -318,3 +318,4 @@
 /Users/sameerakhtar/VS Code/SpecFlowBDDTestFramework/SpecFlowBDDTest/obj/Debug/net8.0/SpecFlowBDDTest.pdb
 /Users/sameerakhtar/VS Code/SpecFlowBDDTestFramework/SpecFlowBDDTest/obj/Debug/net8.0/SpecFlowBDDTest.genruntimeconfig.cache
 /Users/sameerakhtar/VS Code/SpecFlowBDDTestFramework/SpecFlowBDDTest/obj/Debug/net8.0/ref/SpecFlowBDDTest.dll
+/Users/sameerakhtar/VS Code/SpecFlowBDDTestFramework/SpecFlowBDDTest/obj/Debug/net8.0/SpecFlowBDDTest.sourcelink.json
