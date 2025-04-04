@@ -1,2 +1,4 @@
 SpecFlowBDDTest/bin
 SpecFlowBDDTest/obj
+.vs
+.vscode
