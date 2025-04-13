@@ -2,3 +2,6 @@ SpecFlowBDDTest/bin
 SpecFlowBDDTest/obj
 .vs
 .vscode
+
+
+#git rm -r --cached path
